@@ -8,12 +8,12 @@ namespace LeetCodeCSharp {
     class Program {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
-
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+            #region -- TwoSum_1 --
+            TwoSum_1 oTest = new TwoSum_1();
+            int[] nums = new int[4] { 2, 7, 11, 15 };
+            int target = 9;
+            int[] aAns = oTest.TwoSum(nums, target);
+            #endregion
         }
     }
 }
