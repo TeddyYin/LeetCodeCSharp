@@ -42,9 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\LeetcodeBank_1716.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TwoSum_1.cs" />
+    <Compile Include="Easy\TwoSum_1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
