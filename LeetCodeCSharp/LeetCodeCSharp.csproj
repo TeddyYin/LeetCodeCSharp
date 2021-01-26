@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Easy\LeetcodeBank_1716.cs" />
+    <Compile Include="Easy\RunningSum_1480.cs" />
+    <Compile Include="Medium\SubrectangleQueries_1476.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Easy\TwoSum_1.cs" />
