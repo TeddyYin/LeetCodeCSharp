@@ -31,15 +31,21 @@ namespace LeetCodeCSharp
             #endregion
 
             #region -- SubrectangleQueries_1476 --
-            int[][] aArray = new int[][] { new int[] { 1, 2, 1 }, new int[] { 4, 3, 4 }, new int[] { 3, 2, 1 }, new int[] { 1, 1, 1 } };
-            SubrectangleQueries_1476 oTest = new SubrectangleQueries_1476(aArray);
-            oTest.GetValue(0, 2);
-            oTest.UpdateSubrectangle(0, 0, 3, 2, 5);
-            oTest.GetValue(0, 2);
-            oTest.GetValue(3, 1);
-            oTest.UpdateSubrectangle(3, 0, 3, 2, 10);
-            oTest.GetValue(3, 1);
-            oTest.GetValue(0, 2);
+            //int[][] aArray = new int[][] { new int[] { 1, 2, 1 }, new int[] { 4, 3, 4 }, new int[] { 3, 2, 1 }, new int[] { 1, 1, 1 } };
+            //SubrectangleQueries_1476 oTest = new SubrectangleQueries_1476(aArray);
+            //oTest.GetValue(0, 2);
+            //oTest.UpdateSubrectangle(0, 0, 3, 2, 5);
+            //oTest.GetValue(0, 2);
+            //oTest.GetValue(3, 1);
+            //oTest.UpdateSubrectangle(3, 0, 3, 2, 10);
+            //oTest.GetValue(3, 1);
+            //oTest.GetValue(0, 2);
+            #endregion
+
+            #region -- RunningSum_1480 --
+            MaximumBinaryTree_654 oTest = new MaximumBinaryTree_654();
+            int[] nums = new int[6] { 3, 2, 1, 6, 0, 5 };
+            oTest.ConstructMaximumBinaryTree(nums);
             #endregion
         }
     }
