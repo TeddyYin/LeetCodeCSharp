@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Easy\LeetcodeBank_1716.cs" />
     <Compile Include="Easy\RunningSum_1480.cs" />
+    <Compile Include="Easy\UglyNumber_263.cs" />
     <Compile Include="Medium\MaximumBinaryTree_654.cs" />
     <Compile Include="Medium\SubrectangleQueries_1476.cs" />
     <Compile Include="Program.cs" />

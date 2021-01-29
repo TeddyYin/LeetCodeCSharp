@@ -43,9 +43,15 @@ namespace LeetCodeCSharp
             #endregion
 
             #region -- RunningSum_1480 --
-            MaximumBinaryTree_654 oTest = new MaximumBinaryTree_654();
-            int[] nums = new int[6] { 3, 2, 1, 6, 0, 5 };
-            oTest.ConstructMaximumBinaryTree(nums);
+            //MaximumBinaryTree_654 oTest = new MaximumBinaryTree_654();
+            //int[] nums = new int[6] { 3, 2, 1, 6, 0, 5 };
+            //oTest.ConstructMaximumBinaryTree(nums);
+            #endregion
+
+            #region -- UglyNumber_263 --
+            UglyNumber_263 oTest = new UglyNumber_263();
+            int nums = 6;
+            oTest.IsUgly(nums);
             #endregion
         }
     }
