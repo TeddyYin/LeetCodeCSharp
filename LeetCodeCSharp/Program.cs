@@ -49,9 +49,18 @@ namespace LeetCodeCSharp
             #endregion
 
             #region -- UglyNumber_263 --
-            UglyNumber_263 oTest = new UglyNumber_263();
-            int nums = 6;
-            oTest.IsUgly(nums);
+            //UglyNumber_263 oTest = new UglyNumber_263();
+            //int nums = 6;
+            //oTest.IsUgly(nums);
+            #endregion
+
+            #region -- LargestValuesFromLabels_1090 --
+            LargestValuesFromLabels_1090 oTest = new LargestValuesFromLabels_1090();
+            int[] values = { 3, 0, 3, 0, 6 };
+            int[] labels = { 0, 2, 1, 1, 0 };
+            int num_wanted = 4;
+            int use_limit = 1;
+            oTest.LargestValsFromLabels(values, labels, num_wanted, use_limit);
             #endregion
         }
     }
